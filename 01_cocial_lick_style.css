@@ -1,0 +1,88 @@
+/*맨 아래쪽 배경*/
+body {
+  margin: 0;
+    background-color: hsl(0, 0%, 8%);
+}
+
+/*버튼이 있는 화면의 배경*/
+.content {
+  display: flex;
+  padding: 50px;
+  width: 350px;
+  height: 70%;
+  border-radius: 3%;
+  text-align: center;
+  position: fixed; /*뷰 포트에 따라 div의 위치를 고정*/
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 12%);
+}
+
+
+/*이미지 원 모양으로 자르기*/
+.img {
+  border-radius: 50%;
+}
+
+
+
+
+/*폰트 색상, 크기*/
+.h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 35px;
+}
+
+.h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 20px;
+}
+
+p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+
+
+
+/*버튼 위아래 간격*/
+.info {  
+  line-height: 40px;
+}
+
+/*버튼 모양 만들기*/
+.GitHub {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  align-items: center;
+}
+
+.Frontend-Mentor {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  align-items: center;
+}
+
+.Linkebin {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  align-items: center;
+}
+
+.Twitter {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  align-items: center;
+}
+
+.Instargram {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  align-items: center;
+}
