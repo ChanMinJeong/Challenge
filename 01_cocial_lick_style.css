@@ -1,31 +1,47 @@
-/*맨 아래쪽 배경*/
+/*맨 뒤쪽 배경*/
 body {
   margin: 0;
-    background-color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 8%);
 }
 
 /*버튼이 있는 화면의 배경*/
 .content {
   display: flex;
-  padding: 50px;
-  width: 350px;
-  height: 70%;
+  flex-direction: column;
+  /*디스플레이 플렉스 설정, 다이렉션 콜룸으로 플렉스를 블록요소처럼
+  줄 위 아래로 나눔*/
+  width: 30vw;
+  height: 90vh;
+  /*넓이 전체 화면의 40, 길이 전체 화면의 80*/
   border-radius: 3%;
   text-align: center;
-  position: fixed; /*뷰 포트에 따라 div의 위치를 고정*/
+  /*텍스트 가운데 정렬*/
+  position: fixed; 
   top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: hsl(0, 0%, 12%);
+  /*뷰 포트에 따라 div의 위치를 가운데로 고정*/
+}
+
+
+/*사진, 제목, 문단 들어있는 div 구역*/
+.main-img-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  /*디스플레이 유형 및 방향설정 후 포지션을 .content부모에 따라 지정*/
+  width: 30vw;
 }
 
 
 /*이미지 원 모양으로 자르기*/
 .img {
+  width: 8em;
+  height: 8em;
+  margin: 5%;
   border-radius: 50%;
 }
-
-
 
 
 /*폰트 색상, 크기*/
@@ -46,43 +62,93 @@ p {
 
 
 
-/*버튼 위아래 간격*/
-.info {  
-  line-height: 40px;
-}
 
 /*버튼 모양 만들기*/
-.GitHub {
+.info {
   display: flex;
-  width: 200px;
-  height: 30px;
+  flex-direction: column;
+  position: absolute;
+  gap: 20px;
+  top: 70%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info > button {
+  width: 23vw;
+  height: 6vh;
+  /*div info의 너비의 23%, 높이의 6% */
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+/*마우스가 버튼 위에 올라올 때 배경, 글자색, 500ms만에 변하기*/
+.info > button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color:black;
+  transition: 500ms;
+}
+
+
+
+
+/*
+.GitHub {
+  margin: auto;
+  display: flex;
+  width: 350px;
+  height: 45px;
   align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
 }
 
 .Frontend-Mentor {
+  margin: auto;
   display: flex;
-  width: 200px;
-  height: 30px;
+  width: 350px;
+  height: 45px;
   align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
 }
 
 .Linkebin {
+  margin: auto;
   display: flex;
-  width: 200px;
-  height: 30px;
+  width: 350px;
+  height: 45px;
   align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
 }
 
 .Twitter {
+  margin: auto;
   display: flex;
-  width: 200px;
-  height: 30px;
+  width: 350px;
+  height: 45px;
   align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
 }
 
 .Instargram {
+  margin: auto;
   display: flex;
-  width: 200px;
-  height: 30px;
+  width: 350px;
+  height: 45px;
   align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
 }
+
+*/
