@@ -4,19 +4,28 @@ body {
   background-color: hsl(0, 0%, 8%);
 }
 
+.test {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
 /*버튼이 있는 화면의 배경*/
 .content {
   display: flex;
   flex-direction: column;
   /*디스플레이 플렉스 설정, 다이렉션 콜룸으로 플렉스를 블록요소처럼
   줄 위 아래로 나눔*/
-  width: 30vw;
-  height: 90vh;
+  width: 50vw;
+  height: 100vh;
   /*넓이 전체 화면의 40, 길이 전체 화면의 80*/
   border-radius: 3%;
   text-align: center;
   /*텍스트 가운데 정렬*/
-  position: fixed; 
+
+  /*fixed -> 스크롤이 내려가도 계속 그 자리에 있어야 함*/
   top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
