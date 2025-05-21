@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+}
+
+.contanar {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 95%);
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.title-1 {
+  font-size: 30px;
+  letter-spacing: 0.1px;
+  color: gray;
+}
+
+.title-2 {
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+}
+
+
+
+
+.card-box {
+  width: 100%;
+  height: 100%;
+}
+
+.card-box-2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  overflow: hidden;
+}
+
+
+
+.card-1 {
+  width: 400px;
+  height: 30dvh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3%;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 8px 10px lightgrey;
+}
+.card-head-1 {
+  width: 100%;
+  height: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background: lightseagreen;
+}
+
+.card-2_3-box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.card-2 {
+  width: 400px;
+  height: 30dvh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3%;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 8px 10px lightgrey;
+}
+.card-head-2 {
+  width: 100%;
+  height: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background: red;
+}
+
+.card-3 {
+  width: 400px;
+  height: 30dvh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3%;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 8px 10px lightgrey;
+}
+.card-head-3 {
+  width: 100%;
+  height: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background: darkorange;
+}
+
+
+.card-4 {
+  width: 400px;
+  height: 30dvh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3%;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 8px 10px lightgrey;
+}
+.card-head-4 {
+  width: 100%;
+  height: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background: lightskyblue;
+}
