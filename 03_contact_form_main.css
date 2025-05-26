@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*백그라운드*/
+.Containal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  height: 100dvh;
+  background: #e0f1e7;
+}
+
+/*메인 박스*/
+.main-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: 700px;
+  padding: 20px;
+  border-radius: 3%;
+  background: white;
+  gap: 3%;
+}
+
+/*이름 입력칸*/
+.name-Box {
+  display: flex;
+  gap: 2%;
+}
+
+.name-FirstBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.name-LastBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#name-First {
+  width: 100%;
+  height: 38px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+/*인풋이 클릭되면 보더색상 변경*/
+#name-First:focus, #name-First:hover  {
+  border-color: green;
+  outline: none;
+}
+
+#name-Last {
+  width: 100%;
+  height: 38px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+#name-Last:focus, #name-Last:hover {
+  border-color: green;
+  outline: none;
+}
+
+/*이메일 입력칸*/
+.email-Box {
+  display: flex;
+  flex-direction: column;
+}
+
+#Email {
+  width: 100%;
+  height: 38px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: lightgray;
+  padding-left: 20px;  
+}
+
+#Email:focus, #Email:hover {
+  border-color: green;
+  outline: none;
+}
+
+/*쿼리타입 체크박스 입력칸*/
+.type-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.type-All-Box {
+  display:flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+.type-Input-Gen {
+  display: flex;
+  width: 100%;
+  height: 38px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: lightgray;
+  padding-left: 20px;
+}
+
+.type-Input-Sup {
+  display: flex;
+  width: 100%;
+  height: 38px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: lightgray;
+  padding-left: 20px;
+}
+
+.check-Span {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin-left: 10px;
+  font-size: 15px;
+  color: gray;
+  cursor: pointer;
+}
+
+/*메세지 입력칸*/
+.mege-Box {
+  display: flex;
+  flex-direction: column;
+}
+
+#Message {
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: lightgray;
+  padding: 20px;
+  resize: none; /*텍스트 박스의 사이즈 조절 창(우측 하단) 없애기*/
+  cursor: pointer;
+}
+
+#Message:focus, #Message:hover {
+  border-color: green;
+  outline: none;
+}
+
+/*하단 체크박스 입력칸*/
+.check-Box {
+  display: flex;
+}
+
+#check-Box {
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: lightgray;
+}
+
+
+/*제출버튼*/
+.btn-Box {
+  display: flex;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #0c7d69;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #153834;
+}
+
+/*각각 라벨, 스팬설정, */
+.label {
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.check-Box-Label {
+  color: gray;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.label-Star {
+  font-size: 90%;
+  color: #88a99e;
+  margin-left: 3px;
+}
+
+input {
+  cursor: pointer;
+}

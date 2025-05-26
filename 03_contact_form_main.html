@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="03_contact_form_main.css">
+</head>
+<body>
+    <div class="Containal">
+      <div class="main-Box">
+        <h1>Contact Us</h1>
+
+        <div class="name-Box">
+          <div class="name-FirstBox">
+          <label class="label">First Name <span class="label-Star">*</span></label>
+            <input id="name-First" type="text">
+          </div>
+          <div class="name-LastBox">
+          <label class="label">Last Name <span class="label-Star">*</span></label>
+            <input id="name-Last" type="text">
+          </div>
+        </div>
+
+        <div class="email-Box">
+          <label class="label">Email Address <span class="label-Star">*</span></label>
+          <input id="Email" type="text">
+        </div>
+
+        <div class="type-Box">
+          <label class="label">Query Type  <span class="label-Star">*</span></label>
+          <div class="type-All-Box">
+            <div class="type-Input-Gen">
+              <input id="check-Gen" type="radio">
+              <span class="check-Span">Gneral Enquiry</span>
+            </div>  
+            <div class="type-Input-Sup">
+              <input id="check-Sup" type="radio">
+              <span class="check-Span">Support Request</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mege-Box">
+          <label class="label">Message <span class="label-Star">*</span></label>
+          <textarea id="Message" maxlength="300"></textarea>
+          <!--텍스트에어리어로 텍스트 입력 창 생성, 맥스 지정으로 글자수 제한-->
+        </div>
+
+        <div class="check-Box">
+          <label class="custom-Box">
+            <input id="check-Box" type="checkbox">
+            <label class="check-Box-Label">I consent to being contacted by the team <span class="label-Star">*</span></label>
+          </label>
+        </div>
+        
+        <div class="btn-Box">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+</body>
+</html>
